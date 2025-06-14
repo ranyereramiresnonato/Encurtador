@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Administrador\\Desktop\\Encurtador\\Encurtador\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6EFF862C-BA13-4604-8A8D-16077A29B718}|Encurtador.csproj|c:\\users\\administrador\\desktop\\encurtador\\encurtador\\services\\usuarioservice\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EFF862C-BA13-4604-8A8D-16077A29B718}|Encurtador.csproj|solutionrelative:services\\usuarioservice\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EFF862C-BA13-4604-8A8D-16077A29B718}|Encurtador.csproj|c:\\users\\administrador\\desktop\\encurtador\\encurtador\\services\\usuarioservice\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EFF862C-BA13-4604-8A8D-16077A29B718}|Encurtador.csproj|solutionrelative:services\\usuarioservice\\iusuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6EFF862C-BA13-4604-8A8D-16077A29B718}|Encurtador.csproj|c:\\users\\administrador\\desktop\\encurtador\\encurtador\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6EFF862C-BA13-4604-8A8D-16077A29B718}|Encurtador.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +22,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Encurtador\\Encurtador\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Encurtador\\Encurtador\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:22:04.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Encurtador\\Encurtador\\Services\\UsuarioService\\IUsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuarioService\\IUsuarioService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Encurtador\\Encurtador\\Services\\UsuarioService\\IUsuarioService.cs",
+              "RelativeToolTip": "Services\\UsuarioService\\IUsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:21:56.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrador\\Desktop\\Encurtador\\Encurtador\\Services\\UsuarioService\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "Services\\UsuarioService\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Administrador\\Desktop\\Encurtador\\Encurtador\\Services\\UsuarioService\\UsuarioService.cs",
+              "RelativeToolTip": "Services\\UsuarioService\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T23:21:43.476Z",
+              "EditorCaption": ""
             }
           ]
         }

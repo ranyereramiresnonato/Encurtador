@@ -1,6 +1,20 @@
+using Encurtador.DataBase;
+using Encurtador.Repositories.UsuarioRepositorie;
+using Encurtador.Repositories.UsuarioRepository;
+using Encurtador.Services.CriptografiaService;
+using Encurtador.Services.Usuario;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+builder.Services.AddSingleton<IUsuarioService, UsuarioService>();
+builder.Services.AddSingleton<IUsuarioRepository, UsuarioRepository>();
+builder.Services.AddSingleton<ICriptografiaService, CriptografiaService>();
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
